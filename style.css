@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    color: #fff;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    width: 500px;
+}
+.form .check{
+    display: flex;
+    gap: 7px;
+}
+
+.pass input{
+    width: 240px;
+    margin-bottom: 15px;
+}
+.pass .last{
+    margin-left: 14px;
+}
+.formul{
+    width: 500px;
+    margin: 0 33%;
+    transform: translateY(50%);
+}
+.form input{
+    margin-bottom: 15px;
+}
+.formul input{
+    padding: 5px 10px;
+}
+.formul [type="submit"]{
+    background: rgb(32, 112, 21);
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+h2{
+    margin: 10px 190px;
+    font-size: 24px;
+}
+h2 + p{
+    width: 100%;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+[type="checkbox"]{
+    margin-top: 2px;
+}
+input:focus{
+    outline: none;
+    border: 1px solid #b9112d;
+    box-shadow: 5px 2px 20px 6px red;
+}
+[type="submit"]:hover{
+    background-color: red;
+    transform: scale(90%);
+    box-shadow: 5px 2px 20px 6px red;
+}
+@media (max-width:900px) {
+    .formul{
+        width: 500px;
+        margin: 0 16%;
+        transform: translateY(50%);
+    }
+}
